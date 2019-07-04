@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/courses.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="barre">
+                <div class="logo"><a href="#"><img src="res/logo.jpeg"></a></div>
+            <center>
+                <ul class="menu">
+                    <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/index.html"><b>HOME</b></a></li>
+                    <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/courses.html"><b>COURSES</b></a></li>
+                    <li><a href="file:///C:/Users/Gaetan%20O/Desktop/GoMyCode/OnGoMyCode/contact.html"> <b>CONTACT</b></a></li>
+                </ul>
+            </center>
+            </div>
+        <div class="cours">
+            <h1 class="text">COURSES</h1>
+        </div>
+        <div id="ex1" class="modal">
+                <div>Salut bonjour</div>
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+        </div>
+            
+    <center>
+        <div class="listCours">
+
+           <div class="block"> 
+                <div class="cours1" >
+                        <a href="#ex1" rel="modal:open"><button id="mybut1">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block">
+                <div class="cours2">
+                        <a href="#ex1" rel="modal:open"> <button id="mybut2">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block">
+                <div class="cours3">
+                        <a href="#ex1" rel="modal:open"><button id="mybut3">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block">
+                <div class="cours4">
+                        <a href="#ex1" rel="modal:open"><button id="mybut4">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block">
+                <div class="cours5">
+                        <a href="#ex1" rel="modal:open"><button id="mybut5">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block">
+                <div class="cours6">
+                        <a href="#ex1" rel="modal:open"><button id="mybut6">view more</button></a>
+                </div><br>
+            </div>
+        </div>
+
+        <div class="listCours2">
+
+            <div class="block2">
+                <div class="cours7">
+                        <a href="#ex1" rel="modal:open"><button id="mybut7">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block2">
+                <div class="cours8">
+                        <a href="#ex1" rel="modal:open"><button id="mybut8">view more</button></a>
+                </div><br>
+            </div>
+
+            <div class="block2">
+                <div class="cours9">
+                        <a href="#ex1" rel="modal:open"><button id="mybut9">view more</button></a>
+                </div>
+            </div>
+            <br>
+        <!--/div-->
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+    </center>
+
+            <div class="part3">
+                <center>
+                    <div>
+                        <h2 id="text">Feedback</h2>
+                        <button class="but" onclick="bold()">B</button>
+                        <button class="but" onclick="Italic()">I</button>
+                        <button class="but1" onclick="Underline()">Underline</button>
+                        <select id="taille" onchange="changerTaille()" >
+                            <option value="20px">20px</option>
+                            <option value="30px">30px</option>
+                            <option value="40px">40px</option>
+                        </select>
+                        <select id="police"  onchange="ChangerPolice()">
+                            <option value="Arial">Arial</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Geneva">Geneva</option>
+                        </select><br><br><br>
+                        <textarea id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                </center>
+
+            </div>        
+        </div>
+    </div>
+</body>
+
+<script src="js/cours.js"></script>
+
+</html>
